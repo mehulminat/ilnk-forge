@@ -1,0 +1,36 @@
+/* theme editor wrapper start */
+.theme_editor_wrapper{
+    display: grid;
+    grid-template-columns: auto 350px;
+    gap: 30px;
+    align-items: flex-start;
+}
+.theme_editor_wrapper.theme_editor_user{
+    grid-template-columns: auto;
+}
+.theme_editor_wrapper.theme_editor_user .theme_editor_content{
+    padding: 0;
+}
+.theme_editor_content{
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+.theme_editor_preview{
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 100px;
+}
+.theme_editor_box{
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 30px;
+}
+.theme_editor_box > .theme_editor_box_title{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 30px;
+}
+/* theme editor wrapper end */

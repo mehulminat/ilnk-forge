@@ -1,0 +1,31 @@
+.wrapper{
+    border: 1px solid #e5eaf2;
+    border-radius: 10px;
+    background-color: #f7f9fb;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 5px;
+    padding-left: 20px;
+    color: #9aa4cc;
+    font-weight: 500;
+}
+.wrapper .pu_btn{
+    height: 40px;
+    margin-left: 50px;
+    width: 122px;
+    padding: 0 15px;
+    gap: 10px;
+    transition: all 0.2s cubic-bezier(.71,-.11,.25,.88);
+}
+.wrapper .pu_btn > svg path{
+    fill: #ffffff;
+    transition: all 0.2s cubic-bezier(.71,-.11,.25,.88);
+}
+.wrapper.active .pu_btn{
+    color: #328f36;
+    background-color: #b2e9b4;
+}
+.wrapper.active .pu_btn svg path{
+    fill: #328f36;
+}

@@ -1,0 +1,39 @@
+.editor_wrapper{
+    max-width: 1530px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 280px auto 380px;
+    gap: 30px;
+    align-items: flex-start;
+    padding: 0 15px;
+}
+
+/* sidebar start */
+.editor_sidebar{
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0px 18px 30px 0px rgba(177, 193, 224, 0.1);
+    padding: 30px;
+}
+
+.editor_preview{
+    position: sticky;
+    top: 100px;
+}
+/* sidebar end */
+
+.mobile_header_action{
+    margin-bottom: 15px;
+    padding: 0 15px;
+}
+
+@media (max-width: 768px){
+    .editor_wrapper{
+        display: block;
+    }
+    .editor_sidebar{
+        margin-bottom: 10px;
+        border-radius: 8px;
+        padding: 15px;
+    }
+}

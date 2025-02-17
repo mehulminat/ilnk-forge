@@ -1,0 +1,46 @@
+.autosave{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.autosave > svg{
+    width: 20px;
+    height: auto;
+    margin-top: -2px;
+    flex: none;
+}
+.autosave > svg path{
+    fill: #4caf50;
+}
+.autosave > p{
+    width: 70px;
+    color: #4caf50;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.autosave.saving{
+    opacity: 1;
+}
+.autosave.saved{
+    animation: hideSaved 0.3s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+}
+@keyframes hideSaved{
+    0%{opacity: 1;}
+    100%{opacity: 0;}
+}
+.autosave.saving > p{
+    color: var(--body-color);
+}
+
+@media (max-width:768px){
+    .autosave{
+        width: 20px;
+    }
+    .autosave > p{
+        display: none;
+    }
+}

@@ -1,0 +1,117 @@
+.wrapper{
+    border-radius: 16px;
+    background-color: #ffffff;
+    box-shadow: 0px 12px 26px 0px rgba(177, 193, 224, 0.1);
+    margin-bottom: 10px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 15px;
+    position: relative;
+    z-index: 0;
+}
+.header_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    border-radius: 16px;
+}
+
+.section_drag_icon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: none;
+}
+.section_drag_icon > span{
+    width: 1px;
+    height: 26px;
+    background-color: #c7cbe1;
+    margin: 0 1.5px;
+}
+
+.section_icon{
+    flex: none;
+}
+.section_icon > svg{
+    width: 34px;
+    height: 34px;
+}
+.section_title{
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    flex: 1;
+}
+.section_title > span{
+    width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.section_actions{
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: none;
+}
+.section_accordion_icon{
+    width: 24px;
+    height: 24px;
+    border-radius: 50px;
+    background-color: #f5f6fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.section_accordion_icon:before{
+    content: "";
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid #9aa4cc;
+    transition: all 0.3s;
+}
+.active .section_accordion_icon:before{
+    transform: rotateX(180deg);
+}
+
+/* section body start */
+.body{
+    padding: 30px;
+    border-top: 1px solid #f5f7fa;
+    display: none;
+}
+.active .body{
+    display: block;
+}
+/* section body end */
+
+@media (max-width:768px) {
+    .wrapper{
+        border-radius: 8px;
+    }
+    .section_title > span{
+        width: 80px;
+    }
+    .header{
+        padding: 15px 10px;
+        gap: 10px;
+    }
+    .body{
+        padding: 15px;
+    }
+    .section_title{
+        font-size: 13px;
+    }
+}

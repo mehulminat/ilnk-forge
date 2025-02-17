@@ -1,0 +1,172 @@
+.wrapper{
+    border: 1px solid #e5eaf2;
+    border-radius: 8px;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-between;
+}
+.wrapper>.image{
+    width: 46px;
+    flex: none;
+}
+.wrapper>.image img {
+    width: 46px;
+    height: 46px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.wrapper>.name {
+    flex: 1;
+    max-width: 130px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.wrapper>.uploader {
+    flex: none;
+    width: 138px;
+    position: relative;
+    cursor: pointer;
+}
+.wrapper>.uploader>input {
+    position: absolute;
+    top: 0;
+    left: -99999px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 1;
+}
+.wrapper>.uploader>label {
+    background-color: #f7f9fb;
+    border-radius: 8px;
+    width: 138px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.wrapper:hover>.uploader>label {
+    color: var(--main-color);
+    background-color: rgba(var(--main-color-rgb), 0.1);
+}
+.wrapper:hover>.uploader>label svg path {
+    fill: var(--main-color);
+}
+
+
+/************************* Image ELement Section Css Start  ************************/
+.boxes_wrap{
+    text-align: center;
+}
+.boxes_wrap.active{
+    color: var(--main-color);
+}
+
+.image_box_wrap{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.single_image_box {
+    width: 60px;
+    border: 1px solid #c9d6ed;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #f4f8ff;
+}
+.boxes_wrap.active .single_image_box{
+    border-color: var(--main-color);
+    background-color: rgba(255, 152, 59 ,0.25);
+}
+.boxes_wrap.active .single_image_box svg{
+    fill: var(--main-color);
+}
+.outer_border {
+    border: 1px solid var(--pix-border-color);
+    max-width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.boxes_wrap.active .outer_border{
+    border-color: var(--main-color);
+}
+.single_image_box svg {
+    fill: #778aab;
+}
+
+.full_grid_flex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.outer_border.split {
+    max-width: 380px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 3px;
+}
+
+.outer_border.grid {
+    padding: 5px 5px 2px;
+    max-width: 75px;
+}
+
+.outer_border.split .single_image_box {
+    margin: 0px 2px;
+}
+
+.quard_image_box_grid .single_image_box {
+    width: 30px;
+    height: 30px;
+    margin: 0px 2px 3px;
+}
+
+
+@media (max-width: 1400px) {
+   .list_wrap{
+    display: block;
+   }
+}
+
+@media (max-width: 370px) {
+    .image_box_wrap{
+        display: block;
+    }
+    .single_image_box{
+        width: 45px;
+        height: 45px;
+    }
+    .outer_border.grid {
+        max-width: 65px;
+    }
+    .quard_image_box_grid .single_image_box {
+        width: 15px;
+        height: 15px;
+        margin: 0px 1px 2px;
+    }
+}
+/************************ Image ELement Section Css End  ************************/
+

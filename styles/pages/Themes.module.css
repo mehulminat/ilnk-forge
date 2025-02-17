@@ -1,0 +1,145 @@
+.theme_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(18%,1fr));
+    grid-gap: 20px;
+}
+.theme_item{
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 34px 0 rgb(0 0 0 / 3%), 0px 0px 0px 1px var(--main-color);
+    display: block;
+    padding: 10px;
+}
+.theme_preview{
+    height: 160px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    background-color: #f9f9f9;
+}
+.theme_preview > span > svg{
+    width: 40px;
+    height: auto;
+}
+.theme_preview > span > svg path{
+    stroke: #bfc3d3;
+}
+.theme_item > p{
+    margin: 0;
+    font-weight: 400;
+}
+.theme_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+}
+.theme_item:hover .theme_overlay{
+    opacity: 1;
+    visibility: visible;
+}
+.theme_edit{
+    padding: 10px 20px;
+    background-color: var(--main-color);
+    color: #ffffff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.theme_edit  svg path{
+    fill: #ffffff;
+}
+
+.theme_action{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+
+/* switch start */
+.theme_switch{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.theme_switch label span{
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%) !important;
+    width: 32px !important;
+    height: 14px !important;
+}
+.theme_switch label span:before{
+    background-color: #b5b5b5 !important;
+    width: 10px !important;
+    height: 10px !important;
+    top: 2px !important;
+    left: 2px !important;
+}
+.theme_switch > input:checked ~ label > span:before{
+    background-color: #ffffff !important;
+    left: 20px !important;
+}
+/* switch end */
+
+.theme_item:hover .theme_action_icon > span{
+    background-color: #ffffff;
+}
+.inactive{
+    background-color: #eef0f3;
+    box-shadow: 0px 0px 0px 1px #e0e2e5;
+}
+.inactive > .theme_preview > span{
+    opacity: 0.5;
+}
+.inactive .theme_preview_inner{
+    opacity: 0.2;
+}
+
+.edited_theme_name{
+    font-size: 14px;
+    color: var(--color-body);
+    font-weight: 400;
+}
+.edited_theme_name:before{
+    content: ">";
+    margin-right: 15px;
+    font-family: monospace;
+}
+
+/* google font list start */
+.font_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 20px;
+    max-height: 500px;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+.font_list > .font_item{
+    height: 50px;
+    border: 1px solid #e5eaf2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+/* google font list end */

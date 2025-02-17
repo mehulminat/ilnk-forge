@@ -1,0 +1,114 @@
+.el_heading{
+    font-size: 18px;
+    color: var(--color-heading);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+/* theme 3 start */
+.head_themes_3 {
+  padding: 0 15px;  
+}
+.editor_head.head_themes_3 {
+  padding: 0 10px;  
+}
+/* theme 3 end */
+/* theme 4 start */
+.head_themes_4 {
+  padding: 0 15px;  
+}
+.editor_head.head_themes_4 {
+  padding: 0 10px;  
+}
+/* theme 4 end */
+/* theme 6 start */
+.head_themes_6{
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px;
+    border-radius: 6px;
+    background-color:rgba(255, 255, 255, 0.05);
+}
+.editor_head.head_themes_6{
+  margin: 10px 0;
+}
+/* theme 6 end */
+/* theme 7 start */
+.head_themes_7{
+    margin:0 10px;
+  }
+  /* theme 7 end */
+  /* theme 8 start */
+.head_themes_8{
+  margin:0 10px;
+  padding: 15px;
+  text-align: center;
+}
+/* theme 8 end */
+/* theme 9 start */
+.head_themes_9 {
+    margin:0 20px;
+    padding: 20px;
+}
+.editor_head.head_themes_9 {
+  margin:0 10px;
+  padding: 20px 10px;
+}
+  /* theme 9 end */
+/* theme 10 start */
+.head_themes_10 {
+  margin:0 20px;
+}
+
+.editor_head.head_themes_10 {
+  margin:0 15px;
+}
+/* theme 10 end */
+/* theme 11 start */
+.head_themes_11 {
+  margin:0 30px;
+  text-align: center;
+}
+/* theme 11 end */
+/* theme 14 start */
+.head_themes_14 {
+  margin:10px;
+  text-align: center;
+}
+/* theme 14 end */
+/* theme 15 start */
+.head_themes_15.el_heading {
+  margin-bottom:15px;
+}
+/* theme 15 end */
+/* theme 16 start */
+.head_themes_16.el_heading {
+  text-align: left;
+}
+ /* theme 16 end */
+ /* theme 17 start */
+ .head_themes_17.el_heading {
+  text-align: center;
+}
+/* theme 17 end */
+/* theme 18 start */
+.head_themes_18.el_heading {
+  padding: 0 5px;
+}
+/* theme 18 end */
+/* theme 19 start */
+.head_themes_19 {
+  padding: 20px 20px 5px;
+  border-radius: 10px;
+}
+.editor_head.head_themes_19 {
+  padding:0 15px
+}
+/* theme 19 end */
+/* theme 20 start */
+.head_themes_20 {
+  padding: 20px 20px 0;
+}
+.editor_head.head_themes_20 {
+  padding:15px
+}
+/* theme 20 end */

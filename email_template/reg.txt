@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+            html , body  {
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            .pu_template_email {
+               max-width: 600px;
+               margin: 0 auto;
+               padding: 50px;
+            }
+            .pu_template_email .pu_logo_tmp {
+                text-align: center;
+                max-width: 100%;
+            }
+            .pu_template_email .pu_logo_tmp img{
+                max-width: 40px;
+            }
+            .pu_template_email .pu_template_content {
+                background-color: #f8fafd;
+                padding: 25px;
+            }
+            .pu_template_email .pu_template_content p span {
+                font-size: 14px;
+                font-weight: 600;
+                color: #5F6C91;
+                line-height: 1.4;
+            }
+            .pu_template_email .pu_template_content p {
+                font-size: 14px;
+                color: #5F6C91;
+                font-weight: 400;
+                margin-bottom: 25px;
+                line-height: 1.4;
+            }
+            .pu_template_email .pu_logo_tmp h2 {
+                font-size: 18px;
+                text-align: center;
+                margin: 25px 0 20px;
+                font-weight: 500;
+                color: #313337;
+                text-transform: capitalize;
+                padding: 20px 0 0;
+                line-height: 1.4;
+            }
+            .pu_template_email .pu_center {
+                text-align: center;
+            }
+            .pu_template_email .pu_template_content .pu_btn{
+                padding: 10px 35px;
+                background: #fff;
+                color: #fff;
+                font-weight: 500;
+                background-color: #F9913A;
+                font-size: 16px;
+                line-height: 1.4;
+                text-decoration: none;
+                text-transform: capitalize;
+                border-radius: 5px;
+                margin: 10px 0 10px;
+                display: inline-flex;
+            }
+            .pu_template_email .pu_template_bottom {
+               margin-top: 30px;
+            }
+            .pu_template_email .pu_template_bottom h4 {
+                font-size: 16px;
+                color: #313337;
+                margin: 0;
+                font-weight: 500;
+                line-height: 1.4;
+            }
+            .pu_template_email .pu_template_bottom p {
+                font-size: 14px;
+                color: #5F6C91;
+                margin: 15px 0;
+                line-height: 1.4;
+                font-weight: 400;
+            }
+            .pu_template_email .pu_template_bottom p span {
+                 font-weight: 600;
+                 margin: 0;
+            }
+            .pu_template_email .pu_template_bottom .email__content {
+                font-size: 14px;
+                color:#5F6C91 ;
+            }
+            .pu_template_email .pu_success_content  {  
+               margin:35px 0 0;
+            }
+            .pu_template_email .pu_success_content p {  
+                font-size: 14px;
+                color: #313337;
+                font-weight: 400;
+                line-height: 1.6;
+                margin: 0;
+                letter-spacing: 0.5px;
+                text-transform: capitalize;
+            }
+            @media only screen and (max-width: 600px) {
+                .pu_template_email {
+                    max-width: 100%;
+                    padding: 20px;
+                }
+                .pu_template_email .pu_logo_tmp h2 {
+                    margin: 20px 0 15px;
+                    padding: 20px 0 0;
+                    font-size: 18px;
+                }
+                .pu_template_email .pu_template_content .pu_btn {
+                    padding: 10px 25px;
+                    margin: 0 0 10px;
+                    font-size: 14px;
+                }
+                .pu_template_email .pu_template_content {
+                    padding: 20px;
+                }
+            }
+        </style>
+</head>
+<body>
+    <div class="pu_template_email">
+        <div class="pu_logo_tmp">
+            <img src="https://pixaurl.com/images/favicon.png" alt="logo">
+            <h2>Thanks For Signing Up</h2>
+        </div>
+        <div class="pu_template_content">
+            <p>Hello <span>{member_name},</span></p>
+            <p>I’m so glad you regiestered for the PixaURL. We have created
+                your account, Now you just need to verify your email account
+                by clicking below button.</p>
+            <div class="pu_center" >
+                <a  class="pu_btn" href="{activate_link}">Verify Now</a>
+            </div>
+
+        </div>
+        <div class="pu_template_bottom">
+            <h4>We are here to help you!</h4>
+            <p>You can talk to one of our email marketing experts about how PixaURL can help you grow your business.</p>
+            <p>Email us at : <span>support@pixaurl.com</span></p>
+        </div>
+        <div class="pu_success_content">
+            <p>To your success,</p>
+            <p>PixaURL Team</p>
+        </div>
+    </div>
+</body>
+</html>

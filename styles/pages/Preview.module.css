@@ -1,0 +1,315 @@
+.wrapper{
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 40px 30px;
+    position: relative;
+}
+.pu_branding{
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+}
+.pu_branding > svg{
+    width: 150px;
+    height: auto;
+}
+/* editor preview start */
+.editor_wrapper{
+    position: absolute;
+    top: 16px;
+    left: 19px;
+    right: 30px;
+    bottom: 40px;
+    height: 95%;
+    width: 88%;
+    overflow: auto;
+    padding: 40px 15px;
+    z-index: 1;
+}
+.editor_wrapper .social_icon_list > a{
+    width: 30px;
+    height: 30px;
+}
+.editor_wrapper .social_icon_list > a > span > svg{
+    width: 18px;
+}
+/* editor preview end */
+/* theme 1 start */
+.wrapper.theme_1{
+    padding: 30px 15px 20px;
+}
+.theme_2.element_box {
+    padding: 15px;
+}
+/* theme 1 end */
+
+/* theme 2 start */
+.wrapper.theme_2 {
+    padding: 10px 10px 20px;
+}
+.editor_wrapper.theme_2 .element_box {
+    padding: 10px;
+}
+/* theme 2 end */
+/* theme 3 start */
+.wrapper.theme_3{
+    padding: 60px 15px 20px;
+}
+.editor_wrapper.theme_3 {
+    padding: 15px;
+}
+/* theme 3 end */
+/* theme 4 start */
+.wrapper.theme_4{
+    padding: 0 0 30px;
+}
+
+/* theme 4 end */
+/* theme 5 start */
+.wrapper.theme_5{
+    padding: 30px 10px;
+}
+.editor_wrapper.wrapper.theme_5{
+    padding: 20px;
+}
+/* theme 5 end */
+/* theme 6 start */
+.wrapper.theme_6 {
+    padding: 50px 20px 20px;
+    
+}
+.editor_wrapper.theme_6 {
+    padding: 50px 15px 20px;
+}
+/* theme 6 end */
+/* theme 7 start */
+.wrapper.theme_7 {
+    padding: 5px;
+}
+.theme_7 .pu_branding {
+    margin-bottom: 20px;
+}
+/* theme 7 end */
+/* theme 8 start */
+.wrapper.theme_8 {
+    padding: 0 0 30px;
+}
+/* theme 8 end */
+/* theme 9 start */
+.wrapper.theme_9 {
+    padding: 60px 15px 20px; 
+}
+.editor_wrapper.theme_9 {
+    padding: 30px 10px 20px;
+}
+/* theme 9 end */
+/* theme 10 start */
+.wrapper.theme_10 {
+    padding: 0;
+}
+.theme_10 .pu_branding {
+    margin-bottom: 30px;
+}
+/* theme 10 end */
+/* theme 11 start */
+.template_bg.theme_11 > .bg_pattern{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/templates/11/bg_patern.svg');
+    background-repeat: repeat;
+}
+.wrapper.theme_11 {
+    padding: 40px 15px;
+    padding-top: 160px;
+}
+.theme_11 .element_box {
+   background-color: #fff;
+   padding: 30px;
+}
+.theme_11 .pu_branding {
+    margin-top:0 ;
+    background: #fff;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+.theme_11 {
+    padding: 20px 0;
+    padding-top: 100px;
+}
+.theme_11 .element_box{
+    padding: 10px;
+}
+/* theme 11 end */
+/* theme 12 start */
+.wrapper.theme_12 {
+    padding: 40px 15px;
+}
+.wrapper.theme_12 .element_box  {
+    margin-top: 15px;
+}
+/* theme 12 end */
+/* theme 13 start */
+.template_bg.theme_13 > .bg_pattern{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/templates/11/bg_patern.svg');
+    background-repeat: repeat;
+}
+.wrapper.theme_13 {
+    padding: 40px 15px;
+    padding-top: 160px;
+}
+.theme_13 .element_box {
+    padding: 25px 25px 5px;
+    background-color: rgb(0 0 0 / 31%);
+}
+.theme_13 .pu_branding {
+    margin-top:0 ;
+    background-color: rgb(0 0 0 / 31%);
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.editor_wrapper.theme_13 {
+    padding: 20px 15px;
+    padding-top: 100px;
+}
+.editor_wrapper.theme_13 .element_box{
+    padding: 15px;
+}
+/* theme 13 end */
+/* theme 14 start */
+.wrapper.theme_14 {
+    padding: 15px 15px 20px;
+}
+.theme_14 .element_box {
+    margin-top: 20px;
+}
+.editor_wrapper.theme_14 .element_box {
+    margin-top: 30px;
+}
+/* theme 14 end */
+/* theme 15 start */
+.wrapper.theme_15 {
+    padding: 0;
+}
+.theme_15 .element_box {
+    padding: 30px 20px;
+}
+.theme_15 .pu_branding {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+/* theme 15 end */
+/* theme 16 start */
+.template_bg.theme_16 > .bg_pattern{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/templates/11/bg_patern.svg');
+    background-repeat: repeat;
+}
+.wrapper.theme_16 {
+    padding: 30px 15PX; 
+}
+.theme_16 .element_box {
+   border-radius: 10px 10px 0 0;
+   background-color: #fff;
+   padding: 15px;
+   margin-top: 15px;
+
+}
+.theme_16 .pu_branding {
+    margin-top:0 ;
+    background: #fff;
+    padding-bottom: 25px;
+    border-radius: 0 0 10px 10px;
+}
+.editor_wrapper.theme_16 {
+    padding: 30px 15px 20px;
+}
+/* theme 16 end */
+/* theme 17 start */
+.wrapper.theme_17 {
+    padding: 30px 15px;
+}
+/* theme 17 end */
+/* theme 18 start */
+.template_bg.theme_18 > .bg_pattern{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/templates/11/bg_patern.svg');
+    background-repeat: repeat;
+}
+.wrapper.theme_18 {
+    padding: 30px 15px;
+}
+.theme_18 .element_box {
+   background-color: #fff;
+   padding: 5px;
+}
+.theme_18 .pu_branding {
+    margin-top:0 ;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+.editor_wrapper.theme_18 {
+    padding: 30px 15px 20px;
+}
+/* theme 18 end */
+/* theme 19 start */
+.template_bg.theme_19 > .bg_pattern{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('/images/templates/19/bg_patern.png');
+    background-repeat: repeat;
+}
+.wrapper.theme_19 {
+    padding: 0;
+}
+.theme_19 .element_box {
+   padding: 15px;
+   border-radius: 10px 10px 0 0;
+}
+.theme_19 .pu_branding {
+    margin-top:0 ;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 0 0 10px 10px;
+}
+.editor_wrapper.theme_19 .pu_branding {
+    padding-top: 15px;
+}
+/* theme 19 end */
+/* theme 20 start */
+.wrapper.theme_20 {
+    padding: 0;
+}
+.theme_20 .element_box {
+    margin: 30px 20px;
+}
+.editor_wrapper.theme_20 .element_box {
+    margin: 10px;
+}
+.theme_20 .pu_branding{
+    margin: 30px 0  20px;
+}
+/* theme 20 end */
+
+
+

@@ -1,0 +1,110 @@
+.page_list_heading{
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+.page_list_heading > svg{
+    flex: none;
+}
+.page_list_heading > p{
+    margin: 0;
+    flex: 1;
+}
+.page_list_heading > span{
+    flex: none;
+    padding: 2px 8px 0px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #f1f3f7;
+}
+.page_item{
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    border: 1px solid #e5eaf2;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 10px 0 20px;
+    position: relative;
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 20px;
+    cursor: pointer;
+}
+.page_item.active{
+    color: var(--main-color);
+}
+.page_item:before{
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    width: 3px;
+    height: 36px;
+    background-color: #9aa4cc;
+    border-radius: 5px;
+}
+.page_item.active:before{
+    background-color: var(--main-color);
+}
+.page_drag_icon{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page_drag_icon > span{
+    width: 1px;
+    height: 15px;
+    background-color: #c7cbe1;
+    margin: 0 1px;
+}
+.page_item.active .page_drag_icon > span{
+    background-color: var(--main-color);
+}
+.add_page{
+    height: 54px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #e5eaf2;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    margin-bottom: 10px;
+}
+.add_page > .add_page_icon{
+    border: 1px solid #efeff5;
+    border-radius: 5px;
+    background-color: #fbfbfd;
+    width: 44px;
+    height: 44px;
+    flex: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add_page > .add_page_icon:after,
+.add_page > .add_page_icon:before{
+    content: "";
+    width: 12px;
+    height: 2px;
+    background-color: #c7cbe1;
+    position: absolute;
+}
+.add_page > .add_page_icon:after{
+    transform: rotate(90deg);
+}
+.add_page input{
+    width: 100%;
+    height: 44px;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+.add_page input::-webkit-input-placeholder{
+    color: #9aa4cc;
+}

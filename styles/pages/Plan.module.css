@@ -1,0 +1,334 @@
+.plan_list_wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.heading {
+  margin-top: 70px;
+}
+
+.heading h3 {
+  font-size: 28px;
+  color: var(--pix-title-color);
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  text-transform: capitalize
+}
+
+.heading p {
+  font-size: 16px;
+  line-height: 35px;
+  color: #7a85b1;
+  font-weight: 400;
+  text-align: center;
+  margin: 0;
+}
+
+.plan_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  grid-gap: 30px;
+  margin: 30px 0;
+}
+
+.plan_item {
+  /* position: relative; */
+  border-radius: 16px;
+  filter: drop-shadow(0px 18px 15px rgba(177, 193, 224, 0.1));
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  padding: 0 32px 18px 32px;
+  max-width: 330px;
+  margin-bottom: 30px !important;
+}
+
+.plan1 {
+  position: relative;
+}
+
+.plan1::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 245px;
+  background-image: linear-gradient(0deg, #3adf95 0%, #7ef9c2 100%);
+  left: 40px;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.plan2 {
+  position: relative;
+}
+
+.plan2::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 245px;
+  background-image: linear-gradient(0deg, #fd5c89 0%, #ff84a6 100%);
+  left: 40px;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.plan3 {
+  position: relative;
+}
+
+.plan3::before {
+  content: "";
+  position: absolute;
+  height: 6px;
+  width: 245px;
+  background-image: linear-gradient(0deg, #787ff2 0%, #abafff 100%);
+  left: 40px;
+  border-radius: 0px 0px 6px 6px;
+}
+
+.plan_item::after {
+  content: "";
+  width: 290px;
+  position: absolute;
+  height: 30px;
+  border-radius: 16px;
+  background-color: #ffffff;
+  left: 20px;
+  opacity: 0.5;
+}
+
+.plan_item>p {
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto 20px;
+  gap: 10px;
+}
+
+.plan_item .plan_name_wrap {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 20px;
+  color: #7a85b1;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.plan_item .plan_price_wrap {
+
+  border-radius: 12px;
+
+  padding: 10px;
+}
+
+.plan1 .plan_price_wrap {
+  border: 1px solid rgba(58, 223, 149, 0.15);
+  background-color: rgba(58, 223, 149, 0.15);
+}
+
+.plan2 .plan_price_wrap {
+  border: 1px solid rgba(253, 92, 137, 0.15);
+  background-color: rgba(253, 92, 137, 0.15);
+}
+
+.plan3 .plan_price_wrap {
+  border: 1px solid rgba(120, 127, 242, 0.15);
+  background-color: rgba(120, 127, 242, 0.15);
+}
+
+.plan_item .plan_price_wrap p {
+  font-size: 30px;
+  font-weight: 800;
+  font-family: "Nunito";
+  text-align: center;
+  margin: 0;
+}
+
+.plan1 .plan_price_wrap p {
+  color: #3adf95;
+}
+
+.plan2 .plan_price_wrap p {
+  color: #fd5c89;
+}
+
+.plan3 .plan_price_wrap p {
+  color: #787ff2;
+}
+
+.plan_item .plan_desc_wrap p {
+  padding-top: 10px;
+}
+
+.plan_item .plan_desc_wrap button {
+  margin: 15px 0;
+}
+
+/* Applu Coupn cssss */
+.coupon_wrapper {
+  text-align: center;
+}
+
+.coupon_wrapper h2 {
+  color: black;
+  margin: 0;
+  font-size: 25px;
+}
+
+.coupon_wrapper h6 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.apply_couple_toggle_wrap {
+  /* text-align: start; */
+  margin-bottom: 5px;
+}
+
+.apply_couple_toggle {
+  display: inline-block;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.rotate_icon {
+  transform: rotate(180deg);
+}
+
+.coupon_wrapper p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.coupon_apply_inp {
+  /* display: flex; */
+}
+
+.coupon_btn_apply {
+  width: 40px;
+  position: absolute;
+  right: 4px;
+  bottom: 3px;
+}
+
+.amount_wrap h3 {
+  margin: 0;
+}
+
+.amount_wrap p {
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+/* ========================== media css start ================================ */
+@media(max-width:1200px) {
+  .plan_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .plan1::before {
+    width: 90px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .plan2::before {
+    width: 90px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .plan3::before {
+    width: 90px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .plan_item::after {
+    width: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+}
+
+
+.radio_plan {
+  position: relative;
+}
+
+.popover__content {
+  /* opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  left: -131px; */
+  transform: translate(0, 10px);
+  background-color: #fff;
+  padding: 1.5rem;
+  box-shadow: 0px 18px 30px 0px rgba(177, 193, 224, 0.1);
+  width: 100%;
+  border-radius: 16px;
+  border: 1px solid #e5eaf2;
+}
+
+.popover__content:before {
+  position: absolute;
+  z-index: -1;
+  content: "";
+  right: calc(50% - 99px);
+  top: -10px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #e5eaf2 transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+/* .radio_plan .show_popup {
+  z-index: 10;
+  opacity: 1;
+  position: relative;
+  visibility: visible;
+  transform: translate(131px, 12px);
+  transition: all 0.5s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+} */
+
+.inst_bank {
+  text-align: start;
+  margin-bottom: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.inst_bank_head {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+@media(max-width:767px) {
+  .plan_list {
+    display: block;
+  }
+
+  .plan_item {
+    margin: 0 auto;
+  }
+}
+
+@media(max-width:386px) {
+  .popover__content:before {
+    right: calc(50% - 5px);
+  }
+}

@@ -1,0 +1,24 @@
+.vedio_element_btn_wrapper{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.vedio_element_btn_wrapper .btn_box{
+   padding: 10px 20px;
+   border: 1px solid var(--pix-border-color);
+   border-radius: 10px;
+   cursor: pointer;
+   transition: all .5s;
+}
+.vedio_element_btn_wrapper .btn_box:hover{
+   border: 1px solid var(--main-color);
+   color: var(--main-color);
+   background-color: rgba(var(--main-color-rgb), 0.05);
+}
+
+.vedio_element_btn_wrapper .active_btn{
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+   background-color: rgba(var(--main-color-rgb), 0.05);
+}

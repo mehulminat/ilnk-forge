@@ -1,0 +1,182 @@
+/* share icon common start */
+.share_icon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    z-index: 1;
+}
+/* share icon common end */
+/* theme 1 start */
+.html_theme_t1{
+    border-radius: 50px;
+}
+/* theme 1 start */
+/* theme 2 start */
+.html_theme_t2{
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.15);
+    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.24);
+    top: 30px;
+    right: 30px;
+}
+.editor_icon.html_theme_t2{
+    top: 25px;
+    right: 25px;
+}
+/* theme 2 end */
+/* theme 3 start */
+.html_theme_t3{
+    border-radius: 5px;
+}
+/* theme 3 end */
+/* theme 4 start */
+.html_theme_t4{
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0.15);
+    z-index: 1;
+    top: 20px;
+    right: 20px;
+}
+.editor_icon.html_theme_t4{
+    top: 30px;
+    right: 20px;
+}
+/* theme 4 end */
+/* theme 5 start */
+.html_theme_t5 {
+    border-radius: 5px;
+}
+.html_theme_t5 > span {
+    position: absolute;
+    inset: 3px -3px -3px 3px;
+    border-radius: 5px;
+}
+/* theme 5 end */
+/* theme 7 start */
+.html_theme_t7{
+    border-radius: 0;
+    background-color:rgba(255, 255, 255, 0.15);
+    z-index: 1;
+}
+.editor_icon.html_theme_t7{
+    top: 20px;
+    right: 20px;
+}
+/* theme 7 end */
+/* theme 8 start */
+.html_theme_t8  {
+    border-radius: 5px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.06);
+    box-shadow: 0px 0px 0px 1px rgb(255 255 255 / 12%);
+}
+/* theme 8 end */
+/* theme 9 start */
+.html_theme_t9 {
+    border-radius: 0;
+    z-index: 1;
+}
+/* theme 9 end */
+/* theme 10 start */
+.html_theme_t10  {
+    border-radius: 5px;
+    z-index: 1;
+}
+/* theme 10  end */
+/* theme 11 start */
+.html_theme_t11 {
+   border-radius: 0;
+}
+/* theme 11 end */
+/* theme 12 start */
+.html_theme_t12 {
+    background-color:rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}
+.html_theme_t12 > span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+}
+ /* theme 12 end */
+
+/* theme 13 start */
+.html_theme_t13 {
+    background-color:rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}
+.html_theme_t13 > span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 10px;
+}
+/* theme 13 end */
+/* theme 14 start */
+.html_theme_t14 {
+    border-radius: 5px;
+}
+/* theme 14 end */
+/* theme 15 start */
+.html_theme_t15 {
+    background-color:rgba(255, 255, 255, 0.15);
+    z-index: 1;
+    border-radius: 10px;
+}
+/* theme 15 end */
+/* theme 16 start */
+.html_theme_t16{
+    border-radius: 5px;
+    top: 35px;
+    right:25px;
+}
+.editor_icon.html_theme_t16{
+    top: 30px;
+    right:30px;
+}
+/* theme 16 end */
+/* theme 17 start */
+.html_theme_t17 {
+    border-radius: 5px;
+}
+.html_theme_t17 > span {
+    position: absolute;
+    inset: 0;
+    border-radius: 5px;
+}
+/* theme 17 end */
+/* theme 18 start */
+.html_theme_t18 {
+    border-radius: 10px;
+}
+/* theme 18 end */
+/* theme 19 start */
+.html_theme_t19 {
+    background-color:rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    z-index: 1;
+}
+/* theme 19 end */
+/* theme 20 start */
+.html_theme_t20 {
+    background-color:rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+}
+/* theme 20 end */
+.editor_icon{
+    width: 30px;
+    height: 30px;
+}

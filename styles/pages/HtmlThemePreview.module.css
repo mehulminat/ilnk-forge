@@ -1,0 +1,20 @@
+.themelayfix{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+.themelaybox {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0px 0px 0px 1px #e5eaf1;
+    padding: 10px;
+}
+.themelaybox img {
+    max-width: 100%;
+}
+.themelaybox h3 {
+    font-size: 14px;
+    margin: 10px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
