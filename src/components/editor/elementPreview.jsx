@@ -355,7 +355,8 @@ const ElementPreview = (props) => {
                 </div>
 
                 <a href={process.env.APP_URL} target="_blank" rel="noreferrer" className={styles.pu_branding}>
-                    {svg.logo}
+                    {/* {svg.logo} */}
+                    {<img src="/images/fl.png" alt="" width="200"/>}
                 </a>
 
 

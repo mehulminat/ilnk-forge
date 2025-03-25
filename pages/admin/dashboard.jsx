@@ -41,7 +41,7 @@ const Dashboard = () => {
                 <h3>Overall Analytics</h3>
             </div>
             <div className="pu_analytics_white_box_list">
-                <div className="pu_analytics_white_box">
+                {/* <div className="pu_analytics_white_box">
                     <div className="pu_awb_icon">
                         {svg.analysis_click}
                     </div>
@@ -50,16 +50,16 @@ const Dashboard = () => {
                         <h3>{weeklyClicks}</h3>
                         <p>Weekly Clicks</p>
                     </div>
-                </div>
-                <div className="pu_analytics_white_box">
-                    <div className="pu_awb_icon">
-                        {svg.analysis_weekly_visitor}
-                    </div>
-                    <div className="pu_awb_details">
-                        <h3>{weeklyVisitor}</h3>
-                        <p>Weekly Visitor</p>
-                    </div>
-                </div>
+                </div> */}
+                    {/* <div className="pu_analytics_white_box">
+                        <div className="pu_awb_icon">
+                            {svg.analysis_weekly_visitor}
+                        </div>
+                        <div className="pu_awb_details">
+                            <h3>{weeklyVisitor}</h3>
+                            <p>Weekly Visitor</p>
+                        </div>
+                    </div> */}
                 <div className="pu_analytics_white_box">
                     <div className="pu_awb_icon">
                         {svg.analysis_monthly_visitor}

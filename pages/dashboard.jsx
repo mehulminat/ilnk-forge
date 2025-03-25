@@ -66,7 +66,7 @@ const Dashboard = () => {
         <div className="pu_container">
             <PlanAlert show={showAlertBar} onClose={alertBarCloseHandler} />
             <div className="pu_analytics_white_box_list">
-                <div className="pu_analytics_white_box">
+                {/* <div className="pu_analytics_white_box">
                     <div className="pu_awb_icon">
                         {svg.analysis_click}
                     </div>
@@ -75,8 +75,8 @@ const Dashboard = () => {
                         <h3>{weeklyClicks}</h3>
                         <p>Weekly Clicks</p>
                     </div>
-                </div>
-                <div className="pu_analytics_white_box">
+                </div> */}
+                {/* <div className="pu_analytics_white_box">
                     <div className="pu_awb_icon">
                         {svg.analysis_weekly_visitor}
                     </div>
@@ -84,7 +84,7 @@ const Dashboard = () => {
                         <h3>{weeklyVisitor}</h3>
                         <p>Weekly Visitor</p>
                     </div>
-                </div>
+                </div> */}
                 <div className="pu_analytics_white_box">
                     <div className="pu_awb_icon">
                         {svg.analysis_monthly_visitor}

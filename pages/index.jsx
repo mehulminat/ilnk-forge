@@ -359,14 +359,14 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className={styles.works_right} >
+              {/* <div className={styles.works_right} >
                 <div className={styles.works_video}>
                     <div className={styles.video_container}>
                       
                         <iframe width="560" height="315" src="" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

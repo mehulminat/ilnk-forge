@@ -155,10 +155,10 @@ const Settings = (props) => {
                             <div className={styles.profile_box}>
                                 <div className={styles.profile_box_body}>
                                     <Tabs textColor="" indicatorColor="primary" style={{marginLeft:0}} className='Select_tab' value={tabValue} onChange={handleChange} aria-label="disabled tabs example" >
-                                        <Tab label="Stripe"/>
-                                        <Tab label="Paypal" />
-                                        <Tab label="Razorpay" />
-                                        <Tab label="Bank Transfer" />
+                                        <Tab label="STRIPE TEST MODE"/>
+                                        {/* <Tab label="Paypal" />
+                                        <Tab label="Razorpay" /> */}
+                                        {/* <Tab label="Bank Transfer" /> */}
                                     </Tabs>
                                     {tabValue == 0 ?
                                     <div>
@@ -175,56 +175,7 @@ const Settings = (props) => {
                                             </div>
                                         </div>
                                     </div>
-                                    : tabValue == 1 ?
-                                    <div>
-                                        <div className="pu_input_wrapper_list">
-                                            <div className="pu_input_wrapper">
-                                                <label>Paypal Key</label>
-                                                <input type="text" className="pu_input" placeholder='Enter Key' value={paypalKey} onChange={(e) => setPaypalKey(e.target.value)} />
-                                            </div>
-                                        </div>
-                                        <div className="pu_input_wrapper_list">
-                                            <div className="pu_input_wrapper">
-                                                <label>Paypal Secret</label>
-                                                <input type="text" className="pu_input" placeholder='Enter Secret Key' value={paypalSecret} onChange={(e) => setPaypalSecret(e.target.value)} />
-                                            </div>
-                                        </div>
-                                        <div className={styles.profile_box_title}>
-                                        <div className={styles.profile_box_title}>
-
-                                            <div className="pu_switch">
-                                                <input
-                                                    id={'paypalChk_0'}
-                                                    type="checkbox"
-                                                    checked={paypalTestMode}
-                                                    onChange={(e) => setPaypalTestMode(!paypalTestMode)}
-                                                />
-                                                <label htmlFor={'paypalChk_0'}>
-                                                    <span className="pu_switch_icon"></span>
-                                                    <span className="pu_switch_text">PayPal test mode</span>
-                                                </label>
-                                            <div>
-                                                <label>Allows testing PayPal payments with sandbox accounts.</label>
-                                            </div>
-                                            </div>
-                                        </div>
-                                    </div><br />
-                                    </div>
-                                    : tabValue == 2 ?
-                                        <div>
-                                            <div className="pu_input_wrapper_list">
-                                                <div className="pu_input_wrapper">
-                                                    <label>API Key</label>
-                                                    <input type="text" className="pu_input" placeholder='Enter Api Key' value={razorpayKey || ''} onChange={(e) => setRazorpayVendorID(e.target.value)} />
-                                                </div>
-                                            </div>
-                                            <div className="pu_input_wrapper_list">
-                                                <div className="pu_input_wrapper">
-                                                    <label>Secret Key</label>
-                                                    <input type="text" className="pu_input" placeholder='Enter Secret Key' value={razorpaySecret || ''} onChange={(e) => setRazorpayKey(e.target.value)} />
-                                                </div>
-                                            </div>
-                                        </div>
+                                    
                                         :
                                         <div className='pu_input_wrapper'>
                                             <div className={styles.profile_box_title}>
@@ -289,7 +240,7 @@ const Settings = (props) => {
                                     <div >
                                            <div className={styles.profile_box_title}>
                                             <div className="pu_switch">
-                                                <input
+                                                {/* <input
                                                     id={'adsChk_0'}
                                                     type="checkbox"
                                                     checked={isAdsEnable}
@@ -299,11 +250,9 @@ const Settings = (props) => {
                                                     <span className="pu_switch_icon"></span>
                                                     <span className="pu_switch_text">{isAdsEnable ? `Ads Disable ` : 'Ads Enable '}</span>
                                                 </label>
-                                                <input />
+                                                <input /> */}
                                             </div>
-                                            <div>
-                                                <label>{isAdsEnable ? `Disable` : 'Enable '} ads for free users</label>
-                                            </div>
+                                            
                                                
                                                  </div>
                                                  {isAdsEnable ? 

@@ -136,8 +136,8 @@ const EmailSettings = (props) => {
                                     <label>Setup Email Setting</label>
                                             <select className=" pu_input" value={value ? value :''} onChange={(e) => handleChange(e.target.value)}>
                                                 <option value={''}>Select email settings</option>
-                                                <option value={"Mandrill"}>Mandrill</option>
-                                                {/* <option value={'Sendgrid'}>Sendgrid</option> */}
+                                                {/* <option value={"Mandrill"}>Mandrill</option> */}
+                                                <option value={'Sendgrid'}>Sendgrid</option>
                                                 <option value={'SMTP'}>SMTP</option>
                                             </select>
 
