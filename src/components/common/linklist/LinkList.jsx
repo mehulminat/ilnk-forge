@@ -2,7 +2,7 @@ import { Pagination, Tooltip } from '@mui/material';
 import { useEffect, useState } from 'react';
 import { common } from '../../../helper/Common';
 import { AlertMsg, getNameInitials } from '../../../helper/helper';
-import svg from '../../../helper/Logo';
+import svg from '../../../helper/svg';
 import styles from './LinkList.module.css';
 import Link from 'next/link';
 import { confirmPopupStatus, updateMyStatus } from '../../../redux/actions/commonAction';

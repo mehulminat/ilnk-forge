@@ -488,7 +488,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: calc(25% - 20px);
+    width: calc(35% - 20px);
     margin: 0 10px;
 }
 .footer_info {
@@ -497,7 +497,7 @@
 .footer_list_2 , 
 .footer_list_3 , 
 .footer_list_4 {
-    height: 100px;
+    height: 120px;
     border-radius: 16px;
     filter: drop-shadow(0px 12px 12px rgba(177,193,224,0.1));
     background-color: #ffffff;

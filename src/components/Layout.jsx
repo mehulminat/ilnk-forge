@@ -115,7 +115,7 @@ let Layout = function({children}){
                     <meta name="keywords" content={store.common.keywords}/>
                     <meta name="author" content="PixelNX Pvt. Ltd."/>
                     <meta name="MobileOptimized" content="320"/>
-                    <link rel="shortcut icon" type="image/ico" href="/images/favicon.png" />
+                    <link rel="shortcut icon" type="image/ico" href="/images/faviconn.png" />
                 </Head>
                 <div className="pu_preloader">
                     <div className="pu_preloader_inner">

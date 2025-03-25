@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import svg from '../../helper/Logo';
+import svg from '../../helper/svg';
 import Link from 'next/link';
 
 const PlanAlert = (props) => {

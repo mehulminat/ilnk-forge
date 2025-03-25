@@ -59,11 +59,11 @@ const Auth = (props) => {
 
     let authTitle = '';
     if(authType === 'login'){
-        authTitle = 'PixaURL - Login'
+        authTitle = 'LinkForge - Login'
     }else if(authType === 'registration'){
-        authTitle = 'PixaURL - SignUp'
+        authTitle = 'LinkForge - SignUp'
     }else if(authType === 'forgot-password'){
-        authTitle = 'PixaURL - Forgot Password'
+        authTitle = 'LinkForge - Forgot Password'
     }
 
     /* show/hide password start */
@@ -130,7 +130,10 @@ const Auth = (props) => {
             <div className={styles.auth_wrapper}>
                 <div className={styles.auth_header}>
                     <div className={styles.auth_header_logo}>
-                        <Link href="/"><a>{svg.logo}</a></Link>
+                        <Link href="/"><a>
+                            {/* {svg.logo} */}
+                            {<img src="/images/fl.png" alt="" width="200"/>}
+                            </a></Link>
                     </div>
                 </div>
                 <div className={styles.auth_inner}>
@@ -141,7 +144,7 @@ const Auth = (props) => {
                             <>
                                 {!isVerify ? 
                                     <>
-                                        <h3>Let’s Started with <span>PixaURL.</span></h3>
+                                        <h3>Let’s Started with <span>LinkForge.</span></h3>
                                         <p>Connect and manage all your social links at one place</p>
                                         <div className={styles.auth_input_wrapper}>
                                             <input type="text" className={styles.auth_input} placeholder="Enter Name" name="name" value={name} onChange={(e) => setName(e.target.value)} />
@@ -184,7 +187,7 @@ const Auth = (props) => {
                             :
 
                             <>
-                                <h3>Welcome Back to <span>PixaURL</span></h3>
+                                <h3>Welcome Back to <span>LinkForge</span></h3>
                                 <p>Connect and manage all your social links at one place</p>
                                 <div className={styles.auth_input_wrapper}>
                                     <input type="text" className={styles.auth_input} placeholder="Your Email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />

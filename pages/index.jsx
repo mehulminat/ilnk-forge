@@ -29,7 +29,7 @@ const Home = () => {
     useEffect(() => {
         dispatch(setPageHeading({
             title: "LinkForge - Connect And Manage All Your Social Links At One Place",
-            keywords : "pixaurl, pixaurl.com, pixa url, biolink, bio link, miniwebsite, mini website, social link, personal link, portfolio link, bio link generator",
+            keywords : "linkforge, linkforge.com, link url, biolink, bio link, miniwebsite, mini website, social link, personal link, portfolio link, bio link generator",
             description: "Connect and manage all your social links in one place. Organize your social handles into a single tap. Get a link and work smart.",
             pageHeading: "LinkForge - Connect And Manage All Your Social Links At One Place",
         }));
@@ -47,7 +47,7 @@ const Home = () => {
     new Typewriter('#type_anim', {
       // strings: ['Social Link', 'Bio Link', 'Portfolio', 'Mini Website'],
 
-      strings: ['Mini Website', 'Bio Link', 'Portfolio Site', 'Social Link' , 'Personal URL', 'Pixa URL', 'Pro Bio URL'],
+      strings: ['Mini Website', 'Bio Link', 'Portfolio Site', 'Social Link' , 'Personal URL', 'Link  URL', 'Pro Bio URL'],
       autoStart: true,
       loop: true
     });
@@ -188,7 +188,10 @@ const Home = () => {
           <div className="pu_container" ref={headerContainer}>
             <div className={styles.header_inner}>
               <div className={styles.logo}>
-                <Link href="/"><a>{svg.logo}</a></Link>
+                <Link href="/"><a>
+                  {/* {svg.logo} */}
+                  <img src="/images/fl.png" alt="" />
+                  </a></Link>
               </div>
               <div className={styles.nav_toggle} onClick={() => navToggle()}>
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.833403 8.33236C0.612371 8.33236 0.400392 8.24456 0.244098 8.08826C0.0878049 7.93197 0 7.71999 0 7.49896V0.833403C0 0.612371 0.0878049 0.400392 0.244098 0.244098C0.400392 0.0878048 0.612371 0 0.833403 0H7.50063C7.72166 0 7.93364 0.0878048 8.08993 0.244098C8.24622 0.400392 8.33403 0.612371 8.33403 0.833403V7.49896C8.33403 7.71999 8.24622 7.93197 8.08993 8.08826C7.93364 8.24456 7.72166 8.33236 7.50063 8.33236H0.833403ZM12.501 8.33236C12.28 8.33236 12.068 8.24456 11.9117 8.08826C11.7554 7.93197 11.6676 7.71999 11.6676 7.49896V0.833403C11.6676 0.612371 11.7554 0.400392 11.9117 0.244098C12.068 0.0878048 12.28 0 12.501 0H19.1666C19.3876 0 19.5996 0.0878048 19.7559 0.244098C19.9122 0.400392 20 0.612371 20 0.833403V7.49896C20 7.71999 19.9122 7.93197 19.7559 8.08826C19.5996 8.24456 19.3876 8.33236 19.1666 8.33236H12.501ZM0.833403 20C0.612371 20 0.400392 19.9122 0.244098 19.7559C0.0878049 19.5996 0 19.3876 0 19.1666V12.4994C0 12.2783 0.0878049 12.0664 0.244098 11.9101C0.400392 11.7538 0.612371 11.666 0.833403 11.666H7.50063C7.72166 11.666 7.93364 11.7538 8.08993 11.9101C8.24622 12.0664 8.33403 12.2783 8.33403 12.4994V19.1666C8.33403 19.3876 8.24622 19.5996 8.08993 19.7559C7.93364 19.9122 7.72166 20 7.50063 20H0.833403ZM12.501 20C12.28 20 12.068 19.9122 11.9117 19.7559C11.7554 19.5996 11.6676 19.3876 11.6676 19.1666V12.4994C11.6676 12.2783 11.7554 12.0664 11.9117 11.9101C12.068 11.7538 12.28 11.666 12.501 11.666H19.1666C19.3876 11.666 19.5996 11.7538 19.7559 11.9101C19.9122 12.0664 20 12.2783 20 12.4994V19.1666C20 19.3876 19.9122 19.5996 19.7559 19.7559C19.5996 19.9122 19.3876 20 19.1666 20H12.501Z" fill="#F9913A"/></svg>
@@ -365,7 +368,7 @@ const Home = () => {
                 <div className={styles.works_video}>
                     <div className={styles.video_container}>
                       
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/P_aBjfsx_Gg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                        <iframe width="560" height="315" src="" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                     </div>
                 </div>
               </div>
@@ -465,21 +468,23 @@ const Home = () => {
             <div className={styles.footer_main_box}>
               <div className={`${styles.footer_item} ${styles.footer_list_1}`}>
                   <div className={styles.logo_footer}>
-                    {svg.logo}
+                    {/* {svg.logo} */}
+                    <img src="/images/fl.png" alt="" />
                   </div>
-                  <p>LinkForge allows you to create a custom, personalized page that stores all the prominent links you wish to share with your viewers.</p>
+                  {/* <p>LinkForge allows you to create a custom, personalized page that stores all the prominent links you wish to share with your viewers.</p> */}
               </div>
               <div className={`${styles.footer_item} ${styles.footer_list_2}`}>
-                  <div className={styles.footer_icon}>
-                  <img src='./images/landing/Shape 603.png' alt='shape'/>
-                  </div>
+                  {/* <div className={styles.footer_icon}> */}
+                  {/* <img src='./images/landing/Shape 603.png' alt='shape'/> */}
+                  {/* </div> */}
                   <div className={styles.footer_info}>
-                    <h3>Email Address</h3>
-                    <p>name@email.com</p>
+                   
+                    <p>LinkForge allows you to create a custom, personalized page that stores all the prominent links you wish to share with your viewers.</p>
+
                   </div>
                 
               </div>
-              <div className={`${styles.footer_item} ${styles.footer_list_3}`}>
+              {/* <div className={`${styles.footer_item} ${styles.footer_list_3}`}>
               <div className={styles.footer_icon}>
                   <img src='./images/landing/Shape 600.png' alt='shape'/>
                   </div>
@@ -488,8 +493,8 @@ const Home = () => {
                     <p>+91 123 456 789</p>
                   </div>
 
-              </div>
-              <div className={`${styles.footer_item} ${styles.footer_list_4}`}>
+              </div> */}
+              {/* <div className={`${styles.footer_item} ${styles.footer_list_4}`}>
               <div className={styles.footer_icon}>
                   <img src='./images/landing/Shape 602.png' alt='shape'/>
                   </div>
@@ -497,13 +502,13 @@ const Home = () => {
                     <h3>Whatsapp Chat</h3>
                     <p><span>Click Here to Chat</span></p>
                   </div>
-              </div>
+              </div> */}
             </div>
             
             </div>
 
             <div className={styles.footer_copy__right}>
-              <p>Copyright © 2022 LinkForge. All rights reserved. </p>
+              <p>Copyright © 2025 LinkForge. All rights reserved. </p>
             </div>
           </div>
       
