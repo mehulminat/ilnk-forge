@@ -210,7 +210,7 @@ routeHandler.planPurchase = async(req, res) => {
 				  unit_amount: amount * 100,
 				  product_data: { 
 					name: plan,
-					description: 'PixaURL',
+					description: 'LinkForge Plan',
 				  },
 				},
 				
@@ -251,7 +251,7 @@ routeHandler.planPurchase = async(req, res) => {
 					paypal: {
 						experience_context: {
 							payment_method_preference: 'IMMEDIATE_PAYMENT_REQUIRED',
-							brand_name: 'PixaURL',
+							brand_name: 'LinkForge',
 							locale: 'en-US',
 							landing_page: 'LOGIN',
 							user_action: 'PAY_NOW',
@@ -314,7 +314,7 @@ routeHandler.planPurchase = async(req, res) => {
 				  amount: response.amount,
 				  currency: response.currency,
 				  order_id: response.id,
-				  name: 'PixaURL',
+				  name: 'LinkForge',
 				  description: plan,
 				  prefill: {
 					name: user.name,
@@ -790,8 +790,9 @@ routeHandler.getCampaigns = async (req, res) => {
 		let query2 = [
 			{ $match: query },
 			{
+				// remove bug @ aarshi
 				$lookup: {
-					from: "pixaurl_campaignvisits",
+					from: "removetest_test_campaignvisits",
 					localField: "_id",
 					foreignField: "templateId",
 					as: "campaignVisits"
@@ -799,7 +800,7 @@ routeHandler.getCampaigns = async (req, res) => {
 			},
 			{
 				$lookup: {
-					from: "pixaurl_campaignlinks",
+					from: "removetest_test_",
 					localField: "_id",
 					foreignField: "templateId",
 					as: "campaignClicks",

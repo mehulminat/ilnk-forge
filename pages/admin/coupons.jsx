@@ -144,7 +144,7 @@ const Coupons = () => {
                     <Tooltip title="Edit" placement="top" arrow>
                         <a onClick={(e) => getEditedData(e, row.id)} className="pu_dt_btn edit">{svg.dt_edit_icon}</a>
                     </Tooltip>
-                    {row.couponCode !== 'demouser@pixaurl.com' ?
+                    {row.couponCode !== 'demouser@linkforge.fun' ?
                         <Tooltip title="Delete" placement="top" arrow>
                             <a onClick={(e) => deletecoupon(e, row.id)} className="pu_dt_btn delete">{svg.dt_delete_icon}</a>
                         </Tooltip> : null

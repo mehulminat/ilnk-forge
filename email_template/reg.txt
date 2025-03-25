@@ -127,12 +127,12 @@
 <body>
     <div class="pu_template_email">
         <div class="pu_logo_tmp">
-            <img src="https://pixaurl.com/images/favicon.png" alt="logo">
+            <img src="/images/favicon.png" alt="logo">
             <h2>Thanks For Signing Up</h2>
         </div>
         <div class="pu_template_content">
             <p>Hello <span>{member_name},</span></p>
-            <p>I’m so glad you regiestered for the PixaURL. We have created
+            <p>I’m so glad you regiestered for the LinkForge. We have created
                 your account, Now you just need to verify your email account
                 by clicking below button.</p>
             <div class="pu_center" >
@@ -142,12 +142,12 @@
         </div>
         <div class="pu_template_bottom">
             <h4>We are here to help you!</h4>
-            <p>You can talk to one of our email marketing experts about how PixaURL can help you grow your business.</p>
-            <p>Email us at : <span>support@pixaurl.com</span></p>
+            <p>You can talk to one of our email marketing experts about how LinkForge can help you grow your business.</p>
+            <p>Email us at : <span>support@linkforge.com</span></p>
         </div>
         <div class="pu_success_content">
             <p>To your success,</p>
-            <p>PixaURL Team</p>
+            <p>LinkForge Team</p>
         </div>
     </div>
 </body>

@@ -10,8 +10,8 @@ const MyLinks = () => {
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
-            pageHeading: "PixaURL - My Links",
-            title: "PixaURL - My Links",
+            pageHeading: "LinkForge - My Links",
+            title: "LinkForge - My Links",
         }));
     }, [dispatch]);
     const [linkCount, setLinkCount] = useState('0');

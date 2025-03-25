@@ -18,6 +18,8 @@ import { common } from '../src/helper/Common';
 
 
 const Home = () => {
+  
+
   const router = useRouter();
   const headerContainer = useRef();
   const headerNav = useRef();
@@ -28,10 +30,10 @@ const Home = () => {
   let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
-            title: "LinkForge - Connect And Manage All Your Social Links At One Place",
+            title: "LinkForge - The Ultimate Bio Link Manager",
             keywords : "linkforge, linkforge.com, link url, biolink, bio link, miniwebsite, mini website, social link, personal link, portfolio link, bio link generator",
-            description: "Connect and manage all your social links in one place. Organize your social handles into a single tap. Get a link and work smart.",
-            pageHeading: "LinkForge - Connect And Manage All Your Social Links At One Place",
+            description: "The Ultimate Bio Link Manager. Organize your social handles into a single tap. Get a link and work smart.",
+            pageHeading: "LinkForge - The Ultimate Bio Link Manager",
         }));
   }, [router]);
 
@@ -180,7 +182,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>LinkForge - Connect And Manage All Your Social Links At One Place</title>
+        <title>LinkForge - The Ultimate Bio Link Manager</title>
       </Head>
       <div className={styles.wrapper}>
         {/* header start */}
@@ -203,14 +205,7 @@ const Home = () => {
                   <li><a onClick={() => scrollToSection("stab_template")}>Templates</a></li>
                   <li><a onClick={() => scrollToSection("stab_howitwork")}>How It Works</a></li>
                   <li><a onClick={() => scrollToSection("stab_features")}>Features</a></li>
-                  {
-                  isEnabled ? 
-                  isUserLogin ? 
-                    <li><Link href="/checkout">Pricing</Link></li>
-                    :
-                    <li><Link href="/pricing">Pricing</Link></li>
-                    :''
-                  }
+                  
                 </ul>
               </div>
               <div className={styles.header_action}>
@@ -249,7 +244,7 @@ const Home = () => {
                 <h1>Create Your Own
                   <span id="type_anim"></span>
                   in Just a Single Tap.</h1>  
-                <p>Connect and manage all your social links in one place. Organize your social handles into a single tap. Get a link and work smart.</p>
+                <p>The Ultimate Bio Link Manager</p>
                 <Link href="/auth/login"><a className="pu_btn">Get Started {svg.btn_arrow_right}</a></Link>
               </div>
               <div className={styles.banner_right} >
@@ -415,13 +410,7 @@ const Home = () => {
               {/* <strong>Pellentesque sem nunc, consequat non ullamcorper eu</strong> */}
             </div>
             <div className={styles.exclusive_features_main}>
-              <div className={styles.features_box}>
-                  <div className={styles.features_box_item}>
-                      <img src="./images/landing/features_1.png" alt="icons" />
-                      <h3>Analyze Growth</h3>
-                      <p>Examine your daily graph of profile visits and weekly clicks.</p>
-                    </div>
-                </div>
+              
                 <div className={styles.features_box}>
                     <div className={styles.features_box_item}>
                       <img src="./images/landing/features_2.png" alt="icons" />
@@ -436,20 +425,8 @@ const Home = () => {
                       <p>Share your favorite music, podcasts, videos, and saved pins.</p>
                     </div>
                 </div>
-                <div className={styles.features_box}>
-                    <div className={styles.features_box_item}>
-                      <img src="./images/landing/features_4.png" alt="icons" />
-                      <h3>Associate globally</h3>
-                      <p>Influence and Connect with a large audience in the world</p>
-                    </div>
-                </div>
-                <div className={styles.features_box}>
-                    <div className={styles.features_box_item}>
-                      <img src="./images/landing/features_5.png" alt="icons" />
-                      <h3>Bring in smart wealth</h3>
-                      <p>Monetize your link by connecting it to other payment apps and smartly earn profits.</p>
-                    </div>
-                </div>
+                
+                
                 <div className={styles.features_box}>
                   <div className={styles.features_box_item}>
                       <img src="./images/landing/features_6.png" alt="icons" />

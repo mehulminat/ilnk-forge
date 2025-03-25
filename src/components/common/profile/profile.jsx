@@ -19,8 +19,8 @@ const Profile = (props) => {
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
-            pageHeading: "PixaURL - Profile",
-            title: "PixaURL - Profile",
+            pageHeading: "LinkForge - Profile",
+            title: "LinkForge - Profile",
         }));
     }, [dispatch]);
 

@@ -30,7 +30,7 @@ routeHandler.login = async (req, res) => {
   if (!user) {
 		res.json({
 			status: 'error',
-			message: "Couldn't find a PixaURL account associated with this email and password. Please try again.",
+			message: "Couldn't find a LinkForge account associated with this email and password. Please try again.",
 		})
 	} else {
     if (user.status) {
@@ -87,7 +87,7 @@ routeHandler.login = async (req, res) => {
     } else {
 			res.json({
 				status: 'error',
-				message: `Your PixaURL account has been deactivated.`,
+				message: `Your LinkForge account has been deactivated.`,
 			})
     }
   }
@@ -176,7 +176,7 @@ routeHandler.register = async (req, res) => {
 						let replaces = Common.replaceItemByObj(htmlToSend, object);
 						let params = {
 							to: user.email,
-							subject: "Welcome to PixaURL",
+							subject: "Welcome to LinkForge",
 							html: replaces
 						}
 						let emailData = await AdminSettings.findOne()

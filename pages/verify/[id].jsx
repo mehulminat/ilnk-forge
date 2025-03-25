@@ -28,15 +28,15 @@ const AuthVerify = () => {
     return (
         <>
             <Head> 
-                <title>PixaURL - Verify</title>   
+                <title>Link Forge - Verify</title>   
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
                 <meta name="description" content=""/>
                 <meta name="keywords" content=""/>
-                <meta name="author" content="PixelNX Pvt. Ltd."/>
                 <meta name="MobileOptimized" content="320"/>   
             </Head>
+            
             <div className={styles.auth_bg}>
                 <span className={styles.auth_bg_circle +' '+ styles.auth_bg_circle_1}></span>
                 <span className={styles.auth_bg_circle +' '+ styles.auth_bg_circle_2}></span>

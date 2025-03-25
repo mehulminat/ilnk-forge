@@ -117,9 +117,9 @@ const Auth = (props) => {
                 <meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-                <meta name="description" content="Connect and manage all your social links in one place. Organize your social handles into a single tap. Get a link and work smart."/>
-                <meta name="keywords" content="pixaurl, pixaurl.com, pixa url, biolink, bio link, miniwebsite, mini website, social link, personal link, portfolio link, bio link generator"/>
-                <meta name="author" content="PixelNX Pvt. Ltd."/>
+                <meta name="description" content="The Ultimate Bio Link Manager"/>
+                <meta name="keywords" content="linkforge, link urlurl.com, pixa url, biolink, bio link, miniwebsite, mini website, social link, personal link, portfolio link, bio link generator"/>
+               
                 <meta name="MobileOptimized" content="320"/>   
             </Head>
             <div className={styles.auth_bg}>
@@ -145,7 +145,7 @@ const Auth = (props) => {
                                 {!isVerify ? 
                                     <>
                                         <h3>Let’s Started with <span>LinkForge.</span></h3>
-                                        <p>Connect and manage all your social links at one place</p>
+                                        <p>The Ultimate Bio Link Manager                                        </p>
                                         <div className={styles.auth_input_wrapper}>
                                             <input type="text" className={styles.auth_input} placeholder="Enter Name" name="name" value={name} onChange={(e) => setName(e.target.value)} />
                                         </div>
@@ -188,7 +188,7 @@ const Auth = (props) => {
 
                             <>
                                 <h3>Welcome Back to <span>LinkForge</span></h3>
-                                <p>Connect and manage all your social links at one place</p>
+                                <p>The Ultimate Bio Link Manager                                </p>
                                 <div className={styles.auth_input_wrapper}>
                                     <input type="text" className={styles.auth_input} placeholder="Your Email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                                 </div>

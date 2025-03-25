@@ -66,8 +66,8 @@ const PreviewTemplate = () => {
                                 setShow404(true);
                             }
                             dispatch(setPageHeading({
-                                title: 'PixaURL',
-                                pageHeading: 'PixaURL',
+                                title: 'LinkForge',
+                                pageHeading: 'LinkForge',
                             }));
                         }
                         if(resp.data){
@@ -96,8 +96,8 @@ const PreviewTemplate = () => {
                     if(resp.status === 'error'){
                         setShow404(true);
                         dispatch(setPageHeading({
-                            title: 'PixaURL - Page Not Found',
-                            pageHeading: 'PixaURL - Page Not Found',
+                            title: 'LinkForge - Page Not Found',
+                            pageHeading: 'LinkForge - Page Not Found',
                         }));
                     }
                 });

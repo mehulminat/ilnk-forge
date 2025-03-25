@@ -14,8 +14,8 @@ const ErrorComp = () => {
     const [isUserLogin, setIsUserLogin] = useState(false);
     useEffect(() => {
         dispatch(setPageHeading({
-            title: 'PixaURL - Page Not Found',
-            pageHeading: 'PixaURL - Page Not Found',
+            title: 'LinkForge - Page Not Found',
+            pageHeading: 'LinkForge - Page Not Found',
         }));
 
         let tokenCookie = Cookies.get('accessToken') ? Cookies.get('accessToken') : false;

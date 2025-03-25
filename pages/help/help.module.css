@@ -76,15 +76,7 @@
 .help_main a:hover   {
     box-shadow: 0 5px 15px rgb(88 58 188 / 9%);
 }                                                                                                                       
-.pu_account_settings {
-   
-}
-.pu_setup_pixaurl {
-    
-}
-.pu_pixaurl_settings{
-   
-}
+
 .pu_editing_designing {
     display: grid;
     justify-content: initial;

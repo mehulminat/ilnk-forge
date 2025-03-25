@@ -43,8 +43,8 @@ const Editor = (props) => {
                     if(resp.status === 'success'){
 
                         dispatch(setPageHeading({
-                            pageHeading: "PixaURL - "+ resp.data.title,
-                            title: "PixaURL - "+ resp.data.title,
+                            pageHeading: "LinkForge - "+ resp.data.title,
+                            title: "LinkForge - "+ resp.data.title,
                         }));
 
                         dispatch(editorDataUpdate(resp.data));

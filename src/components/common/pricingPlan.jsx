@@ -23,8 +23,8 @@ const Plan = () => {
    let dispatch = useDispatch();
    useEffect(() => {
       dispatch(setPageHeading({
-         pageHeading: "PixaURL - Plans",
-         title: "PixaURL - Run Your Own SaaS Platform for Building Bio URL , Mini Sites, Digital Cards",
+         pageHeading: "LinkForge - Plans",
+         title: "LinkForge - The Ultimate Bio Link Manager",
       }));
    }, [dispatch]);
 
@@ -285,9 +285,8 @@ const Plan = () => {
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-            <meta name="description" content="Connect and manage all your social links in one place. Organize your social handles into a single tap. Get a link and work smart." />
-            <meta name="keywords" content="pixaurl, pixaurl.com, pixa url, biolink, bio link, miniwebsite, mini website, social link, personal link, portfolio link, bio link generator" />
-            <meta name="author" content="PixelNX Pvt. Ltd." />
+            <meta name="description" content="The Ultimate Bio Link Manager" />
+            <meta name="keywords" content="linkforge, link urlurl.com, pixa url, biolink, bio link, miniwebsite, mini website, social link, personal link, portfolio link, bio link generator" />
             <meta name="MobileOptimized" content="320" />
             <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 
@@ -295,7 +294,7 @@ const Plan = () => {
 
          <div className="pu_container">
             <div className={styles.heading}>
-               <h3>Ready to Start With PixaURL?</h3>
+               <h3>Ready to Start With LinkForge?</h3>
                <p>Choose the Perfect Plan for You and Your Business</p>
             </div>
             <div className={styles.plan_list_wrapper}>

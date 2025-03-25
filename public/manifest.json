@@ -4,9 +4,9 @@
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
-  "name": "PixaURL App",
-  "short_name": "pixaurl",
-  "description": "Connect and manage all your social links in one place.",
+  "name": "LinkForge App",
+  "short_name": "linkforge",
+  "description": "The Ultimate Bio Link Manager",
   "icons": [
       {
           "src": "/192x192.png",

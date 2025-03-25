@@ -2086,8 +2086,9 @@ routeHandler.getAllCampaigns = async (req, res) => {
 					}
 				},
 				{
+					// bug to be fixed @aarshi
 					$lookup: {
-						from: "pixaurl_campaignvisits",
+						from: "removetest_test_campaignvisits",
 						localField: "_id",
 						foreignField: "templateId",
 						as: "campaignVisits"
@@ -2095,7 +2096,7 @@ routeHandler.getAllCampaigns = async (req, res) => {
 				},
 				{
 					$lookup: {
-						from: "pixaurl_campaignlinks",
+						from: "removetest_test_campaignlinks",
 						localField: "_id",
 						foreignField: "templateId",
 						as: "campaignClicks",

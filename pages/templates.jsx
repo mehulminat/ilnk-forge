@@ -16,8 +16,8 @@ const Templates = () => {
     const [pageTitle, setPageTitle] = useState('Templates');
     useEffect(() => {
         dispatch(setPageHeading({
-            pageHeading: "PixaURL - " + pageTitle,
-            title: "PixaURL - " + pageTitle,
+            pageHeading: "LinkForge - " + pageTitle,
+            title: "LinkForge - " + pageTitle,
         }));
     }, [dispatch]);
 
@@ -289,7 +289,7 @@ const Templates = () => {
             </div>
 
             <Popup
-                heading="Create New PixaURL"
+                heading="Create New Link"
                 subHeading="Enter Your URL Below to Continue"
                 show={createLinkPopup}
                 maxWidth={570}

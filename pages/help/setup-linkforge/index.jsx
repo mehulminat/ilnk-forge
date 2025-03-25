@@ -1,24 +1,24 @@
 import Link from "next/link";
 import styles from '../help.module.css';
-const SetupPixaURL = () => {
+const SetupLinkForge = () => {
     return (
             <>
                 <div className={styles.page_full_handle}>
                     <div className="pu_container">
                         <div className={styles.pu_wr}>
-                            <h3 className={styles.page_heading}>Setup PixaURL</h3>
+                            <h3 className={styles.page_heading}>Setup LinkForge</h3>
                             <div className={styles.page_handle}>
                                 <Link href="/help"><a  className={styles.link___active}> Help <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg"><g clipPath="url(#clip0_22_10)"><path d="M7.64506 5.49505L3.34522 9.79476C3.0717 10.0684 2.62823 10.0684 2.35484 9.79476C2.08143 9.52135 2.08143 9.0779 2.35484 8.80451L6.15953 4.99993L2.35495 1.19548C2.08154 0.921955 2.08154 0.478552 2.35495 0.205141C2.62836 -0.0683805 3.07181 -0.0683805 3.34533 0.205141L7.64517 4.50492C7.78188 4.64169 7.85015 4.82075 7.85015 4.99991C7.85015 5.17915 7.78174 5.35835 7.64506 5.49505Z" fill="#F9913A"/></g><defs><clipPath id="clip0_22_10"><rect width="10" height="10" fill="white"/></clipPath></defs></svg> </a></Link>
-                                <a > Setup PixaURL</a>
+                                <a > Setup LinkForge</a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="pu_container">
-                    <div className={`${styles.help_main} ${styles.pu_setup_pixaurl}`}> 
-                        <Link href="/help/setup-pixaurl/create-pixaurl">Create PixaURL</Link>
-                        <Link href="/help/setup-pixaurl/rename-pixaurl">How to Rename PixaURL</Link>
-                        <Link href="/help/setup-pixaurl/edit-pixaurl">How to Edit my PixaURL</Link>
+                    <div className={`${styles.help_main} `}> 
+                        <Link href="/help/setup-linkforge/create-linkforge">Create LinkForge</Link>
+                        <Link href="/help/setup-linkforge/rename-linkforge">How to Rename LinkForge</Link>
+                        <Link href="/help/setup-linkforge/edit-linkforge">How to Edit my LinkForge</Link>
                     </div>
                 </div>
      
@@ -26,4 +26,4 @@ const SetupPixaURL = () => {
      
     );
 }
-export default SetupPixaURL;
+export default SetupLinkForge;

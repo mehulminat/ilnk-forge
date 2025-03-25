@@ -21,8 +21,8 @@ const EmailSettings = (props) => {
     let dispatch = useDispatch();
     useEffect(() => {
         dispatch(setPageHeading({
-            pageHeading: "PixaURL - Email Setting",
-            title: "PixaURL - Email Setting",
+            pageHeading: "LinkForge - Email Setting",
+            title: "LinkForge - Email Setting",
         }));
     }, [dispatch]);
 
